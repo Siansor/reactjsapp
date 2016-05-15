@@ -10,13 +10,13 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Siansor/reactapp.git"
+    "url": "git+https://github.com/Siansor/reactjsapp.git"
   },
   "bugs": {
-    "url": "https://github.com/Siansor/reactapp/issues"
+    "url": "https://github.com/Siansor/reactjsapp/issues"
   },
-  "homepage": "https://github.com/Siansor/reactapp#readme",
-  "description": "",
+  "homepage": "https://github.com/Siansor/reactjsapp#readme",
+  "description": "React app",
   "dependencies": {
     "babel-preset-react": "^6.5.0",
     "babelify": "^7.3.0",
