@@ -19525,19 +19525,19 @@ var ListItem = React.createClass({
       React.createElement(
         'h4',
         null,
-        this.prop.ingredient
+        this.props.ingredient
       )
     );
   }
 });
 
-module.exports = 'ListItem';
+module.exports = ListItem;
 
 },{"react":166}],170:[function(require,module,exports){
 var React = require('react');
 var ReactDOM = require('react-dom');
 var List = require('./components/List.jsx');
 
-ReactDOM.render(React.createElement('list', null), document.getElementById('ingredients'));
+ReactDOM.render(React.createElement(List, null), document.getElementById('ingredients'));
 
 },{"./components/List.jsx":168,"react":166,"react-dom":1}]},{},[170]);
